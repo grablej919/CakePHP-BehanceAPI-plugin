@@ -37,7 +37,6 @@ class Behance extends BehanceApi {
  * The user argument can be an ID or username.
  */
 	public function getUserProjects($conditions = array()) {
-		debug('Hello World');
 		return $this->_request('/users/', true, '/projects', $conditions);
 	}
 
