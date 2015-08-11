@@ -62,5 +62,4 @@ CakePHP Behance in Use
 		$data = $this->Behance->getUserInfo();
 	}
 
-3. Explore Behance model in app/Plugin/Behance/Model/Behance.php for a list of all the available Behance API requests
-
+3. Explore Behance model in app/Plugin/Behance/Model/Behance.php for a list of all the available Behance API requests. Also refer to the Behance API Endpoints for a fuller explanation: https://www.behance.net/dev/api/endpoints/
